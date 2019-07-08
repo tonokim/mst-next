@@ -1,0 +1,35 @@
+{
+  "name": "react-next-mobx-state-tree",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "babel-plugin-react-css-modules": "^5.2.6",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "mobx": "4.12.0",
+    "mobx-react": "^6.1.1",
+    "mobx-state-tree": "^3.14.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "@zeit/next-less": "^1.0.1",
+    "babel-loader": "^8.0.6",
+    "less": "^3.9.0",
+    "postcss-less": "^3.1.4"
+  },
+  "license": "ISC"
+}

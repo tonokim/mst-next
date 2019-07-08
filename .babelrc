@@ -1,0 +1,36 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    [
+      "react-css-modules",
+      {
+        "filetypes": {
+            ".less": {
+                "syntax": "postcss-less"
+            }
+        },
+        "generateScopedName": "[path]___[name]__[local]___[hash:base64:5]"
+      }
+    ]
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        [
+          "react-css-modules",
+          {
+            "filetypes": {
+                ".less": {
+                    "syntax": "postcss-less"
+                }
+            },
+            "generateScopedName": "[hash:base64:5]"
+          }
+        ]
+      ]
+    }
+  }
+}
