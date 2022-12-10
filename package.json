@@ -11,7 +11,7 @@
   "dependencies": {
     "babel-plugin-react-css-modules": "^5.2.6",
     "cookie-parser": "^1.4.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mobx": "^4.13.0",
     "mobx-react": "^6.1.1",
     "mobx-state-tree": "^3.14.0",
